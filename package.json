@@ -1,0 +1,22 @@
+{
+  "name": "javascript-problems",
+  "version": "1.0.0",
+  "description": "Just a spot for me to practice JS questions!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kittywizard/javascript-problems.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kittywizard/javascript-problems/issues"
+  },
+  "homepage": "https://github.com/kittywizard/javascript-problems#readme",
+  "dependencies": {
+    "jest": "^28.1.0"
+  }
+}
