@@ -1,12 +1,12 @@
 function isPangram(str) {
-    const alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z' ];
-
     const strSet = new Set(str.toLowerCase().split('')); //kills the duplicate letters
     const strArray = [...strSet];
+    const regex = new RegExp('[a-z]');
 
     //remove anything that isn't a letter
+    const filteredArray = strArray.filter(letter => regex.test(letter));
 
-    return [...strSet].length === 25 ? true : false;
+    return filteredArray.length === 26 ? true : false;
 
 }
 

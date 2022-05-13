@@ -4,7 +4,7 @@
   "description": "Just a spot for me to practice JS questions!",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch"
+    "test": "jest --watchAll"
   },
   "repository": {
     "type": "git",
