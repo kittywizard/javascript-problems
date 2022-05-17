@@ -7,3 +7,8 @@ test('checking string', () => {
 test('checking false string', () => {
     expect(isIsogram('pattERN')).toBe(false);
 });
+
+test('checking false string', () => {
+    expect(isIsogram('cat')).toBe(true);
+});
+
