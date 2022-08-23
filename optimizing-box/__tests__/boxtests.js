@@ -1,0 +1,1 @@
+const minimalHeaviestSetA = require('../minimalHeaviestSetA');

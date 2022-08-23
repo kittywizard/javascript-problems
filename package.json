@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kittywizard/javascript-problems#readme",
   "dependencies": {
+    "@types/jest": "^28.1.7",
     "jest": "^28.1.0",
     "node-fetch": "^3.2.4"
   },
