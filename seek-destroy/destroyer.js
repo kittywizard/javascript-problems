@@ -15,3 +15,25 @@ function destroyer(arr) {
   //destroyer([1, 2, 3, 1, 2, 3], 2, 3);
   destroyer([1, 2, 3, 5, 1, 2, 3], 2, 3);
   destroyer([3, 5, 1, 2, 2], 2, 3, 5)
+
+  //second attempt
+
+  function destroyer(arr) {
+    let newArr =[];
+  
+    newArr = arr.filter(item => {
+      for(let i=1; i < arguments.length; i++) {
+        if(item == arguments[i]){
+          return item
+        }
+      }
+    })
+    console.log(newArr)
+    return arr;
+  }
+  
+  //destroyer([1, 2, 3, 1, 2, 3], 2, 3);
+  destroyer([1, 2, 3, 5, 1, 2, 3], 2, 3);
+  //destroyer([3, 5, 1, 2, 2], 2, 3, 5)
+  
+  
